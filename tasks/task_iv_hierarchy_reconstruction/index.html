@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <title>Experiment</title>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/3.7.2/firebase.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="js/interact.min.js"></script>
+
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    </head>
+
+    <!-- CSS -->
+    <style type="text/css">
+        #info-form {
+            position: absolute;
+            width: 20%;
+            top: 40%;
+            left: 40%;
+        }
+        .submit-btn {
+            display: table;
+            margin: auto;
+        }
+        #gender-group .radio {
+            left: 20%;
+        }
+        #instr {
+            margin: auto;
+            width: 270px;
+            margin-top: 30vh;
+        }
+    </style>
+
+    <!-- HTML -->
+    <body>
+        <div id="info">
+            <div id="info-form" class="survey" data-toggle="validator" role="form">
+                <form action="javascript:signin();" class="form-horizontal">
+                    <div id="user-id-group" class="form-group">
+                        <span id="user-id-text" class=" control-label" for="textinput">ID</span>
+                        <input id="user-id" type="text" class="form-control input-md" required>
+                    </div>
+
+                    <div id="gender-group" class="form-group">
+                        <span class="control-label" for="textinput">Gender</span>
+                        <div class="radio">
+                            <input name="gender" type="radio" value="F" required>Female
+                        </div>
+                        <div class="radio">
+                            <input name="gender" type="radio" value="M">Male
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input name="center" type="checkbox" checked> Center
+                    </div>
+
+                    <button id="submit" type="submit" class="btn btn-primary submit-btn">Submit</button>
+                </form>
+            </div>
+        </div>
+
+        <div id="instr">
+            <p>On the next page, you will see the 9 faces from the organization you've learned about.</p>
+            <p>Please arrange those faces inside the designated area based on their relative power in their organization.</p>
+            <p id="center_instr">One of the faces has already been placed in position for you.</p>
+            <p>You can use whatever configuration you think best represents the individuals' relative power.</p>
+            <p><br/></p>
+
+            <button id="start" class="btn btn-primary submit-btn">Start</button>
+        </div>
+
+        <!-- JavaScript -->
+        <script>
+            var userId, gender;
+            $('#instr').hide();
+            function signin() {
+                $('#user-id-group').removeClass('bold has-error has-danger');
+                userId = $('#user-id').val();
+                gender = $("input[name='gender']:checked").val();
+                center = $("input[name='center']").is(":checked");
+                if (!center) {
+                    $('#center_instr').hide();
+                }
+                if (userId.length == 0) {  // error checking
+                    $('#user-id-group').addClass('bold has-error has-danger');
+                    return;
+                }
+                $('#info').hide();
+                $('#instr').show();
+            }
+            $('#start').click(function() {
+                window.location.href = 'dragndrop.html?id=' + userId + '&g=' + gender + '&c=' + center;
+            });
+        </script>
+    </body>
+</html>

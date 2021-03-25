@@ -1,0 +1,18 @@
+---
+title: "Paired t test"
+output: html_document
+---
+
+
+```{r}
+setwd('~/Repos/hierarchy-data/eye_tracking')
+data = read.csv("eye_data_summary_30subj.csv", header=T, sep="," )
+```
+### X values
+```{r}
+t.test(data$mean_x_up, data$mean_x_down, paired=TRUE)
+```
+### Y values
+```{r}
+t.test(data$mean_y_up, data$mean_y_down, paired=TRUE)
+```

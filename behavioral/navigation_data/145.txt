@@ -1,0 +1,82 @@
+{"Gender": "Male", "Age": "18", "Type": "Normal", "Screen": "Exp", "ID": "145"}
+"#[ PsychoPy2 RuntimeInfoStart ]\n  #[[ PsychoPy ]] #---------\n    psychopyVersion: 1.85.2\n    psychopyHaveExtRush: True\n  #[[ Experiment ]] #---------\n    experimentRunTime: 2018_01_18 10:55 (Year_Month_Day Hour:Min)\n    experimentRunTime.epoch: 1516301734\n    experimentScript: hierNavigation.py\n    experimentScript.digestSHA1: c01317d89ed8ae2ba7fe9b9ca36d0e025b652721\n    experimentScript.directory: /Users/lab/Desktop/Navigation\n  #[[ System ]] #---------\n    systemHaveInternetAccess: True\n    systemHostName: Labs-iMac.local\n    systemLocale: C\n    systemMemFreeRAM: 3310.11328125\n    systemMemTotalRAM: 8192.0\n    systemPlatform: darwin 10.11.6 x86_64\n    systemPyo.InputDevices: {0: {'host api index': 0, 'latency': 0.0029931971803307533, 'default sr': 44100, 'name': u'Built-in Microph'}}\n    systemPyo.OutputDevices: {1: {'host api index': 0, 'latency': 0.00972789153456688, 'default sr': 44100, 'name': u'Built-in Output'}}\n    systemPyoVersion: 0.8.6\n    systemRebooted: Oct 23 14:50\n    systemSec.OpenSSLVersion: OpenSSL 0.9.8zh 14 Jan 2016\n    systemSec.pythonSSL: True\n    systemTimeNumpySD1000000_sec: 0.0052\n    systemUser: lab\n    systemUserID: 501\n    systemUserProcCount: 108\n    systemUserProcFlagged: 'Google Chrome' mdworker Safari\n    systemUsersCount: 1\n  #[[ Window ]] #---------\n    windowWinType: pyglet\n    windowUnits: norm\n    windowSize_pix: [1920 1080]\n    windowScreen: 0\n    windowRgb: [ 0.  0.  0.]\n    windowPos_pix: [0, 0]\n    windowMonitor.name: __blank__\n    windowMonitor.getWidth_cm: None\n    windowMonitor.getDistance_cm: None\n    windowMonitor.currentCalibName: 2018_01_18 10:55\n    windowIsFullScr: True\n  #[[ Python ]] #---------\n    pythonVersion: 2.7.12\n  #[[ OpenGL ]] #---------\n#[ PsychoPy2 RuntimeInfoEnd ]\n"
+{"0": "img/M5.jpg", "1": "img/M4.jpg", "2": "img/M3.jpg", "3": "img/M2.jpg", "4": "img/M6.jpg", "5": "img/M1.jpg", "6": "img/M9.jpg", "7": "img/M7.jpg", "8": "img/M8.jpg"}
+{"U": "Orange", "D": "Blue"}
+{"distance": 4, "direction": "U", "practice": true, "answer_index": 1, "anchor": 8, "options": [2, 4, 3, 5], "response": null}
+{"rt": 0.7424850463867188, "distance": 5, "direction": "D", "practice": true, "answer_index": 0, "options": [8, 7, 6, 5], "correct": false, "response": 6, "anchor": 3}
+{"rt": 0.6184258460998535, "distance": 1, "direction": "D", "practice": true, "answer_index": 2, "options": [7, 3, 5, 6], "correct": true, "response": 5, "anchor": 4}
+{"rt": 0.4816100597381592, "distance": 6, "direction": "D", "practice": true, "answer_index": 2, "options": [5, 4, 6, 7], "correct": true, "response": 6, "anchor": 0}
+{"rt": 0.7432880401611328, "distance": 7, "direction": "U", "practice": true, "answer_index": 3, "options": [3, 2, 1, 0], "correct": true, "response": 0, "anchor": 7}
+{"rt": 0.8750331401824951, "distance": 2, "direction": "U", "answer_index": 0, "options": [3, 4, 2, 1], "correct": true, "response": 3, "anchor": 5}
+{"rt": 0.6968700885772705, "distance": 4, "direction": "U", "answer_index": 1, "options": [2, 0, 1, 3], "correct": false, "response": 1, "anchor": 4}
+{"rt": 0.5737569332122803, "distance": 2, "direction": "D", "answer_index": 3, "options": [4, 8, 6, 7], "correct": true, "response": 7, "anchor": 5}
+{"rt": 0.735908031463623, "distance": 4, "direction": "U", "answer_index": 2, "options": [0, 2, 1, 3], "correct": true, "response": 1, "anchor": 5}
+{"rt": 0.8990828990936279, "distance": 2, "direction": "U", "answer_index": 3, "options": [4, 2, 0, 1], "correct": true, "response": 1, "anchor": 3}
+{"rt": 0.9597249031066895, "distance": 2, "direction": "U", "answer_index": 3, "options": [0, 3, 1, 2], "correct": true, "response": 2, "anchor": 4}
+{"rt": 1.1378660202026367, "distance": 4, "direction": "D", "answer_index": 1, "options": [5, 8, 7, 6], "correct": true, "response": 8, "anchor": 4}
+{"rt": 0.6531140804290771, "distance": 3, "direction": "U", "answer_index": 3, "options": [2, 4, 1, 0], "correct": false, "response": 1, "anchor": 3}
+{"rt": 0.8271210193634033, "distance": 2, "direction": "D", "answer_index": 3, "options": [5, 4, 7, 8], "correct": true, "response": 8, "anchor": 6}
+{"rt": 0.9698679447174072, "distance": 4, "direction": "D", "answer_index": 0, "options": [6, 8, 7, 5], "correct": false, "response": 8, "anchor": 2}
+{"rt": 1.1001379489898682, "distance": 3, "direction": "U", "answer_index": 1, "options": [1, 2, 3, 0], "correct": true, "response": 2, "anchor": 5}
+{"rt": 0.5206859111785889, "distance": 3, "direction": "D", "answer_index": 2, "options": [5, 8, 6, 7], "correct": true, "response": 6, "anchor": 3}
+{"rt": 0.7247960567474365, "distance": 2, "direction": "U", "answer_index": 2, "options": [5, 3, 4, 2], "correct": true, "response": 4, "anchor": 6}
+{"rt": 1.2803118228912354, "distance": 2, "direction": "D", "answer_index": 1, "options": [6, 4, 5, 3], "correct": true, "response": 4, "anchor": 2}
+{"rt": 1.4377400875091553, "distance": 2, "direction": "D", "answer_index": 0, "options": [5, 6, 4, 7], "correct": true, "response": 5, "anchor": 3}
+{"rt": 0.5963320732116699, "distance": 3, "direction": "D", "answer_index": 2, "options": [6, 7, 8, 4], "correct": true, "response": 8, "anchor": 5}
+{"distance": 3, "direction": "U", "answer_index": 0, "anchor": 6, "options": [3, 4, 2, 1], "response": null}
+{"rt": 1.2706248760223389, "distance": 3, "direction": "U", "answer_index": 1, "options": [0, 1, 2, 3], "correct": true, "response": 1, "anchor": 4}
+{"rt": 0.4754951000213623, "distance": 3, "direction": "D", "answer_index": 2, "options": [5, 6, 7, 8], "correct": true, "response": 7, "anchor": 4}
+{"rt": 0.6576988697052002, "distance": 2, "direction": "U", "answer_index": 2, "options": [4, 3, 0, 1], "correct": true, "response": 0, "anchor": 2}
+{"rt": 0.5448548793792725, "distance": 4, "direction": "D", "answer_index": 0, "options": [7, 6, 5, 8], "correct": true, "response": 7, "anchor": 3}
+{"rt": 0.7802989482879639, "distance": 3, "direction": "D", "answer_index": 1, "options": [6, 5, 7, 4], "correct": true, "response": 5, "anchor": 2}
+{"rt": 0.48629093170166016, "distance": 2, "direction": "D", "answer_index": 3, "options": [5, 8, 7, 6], "correct": true, "response": 6, "anchor": 4}
+{"rt": 1.0281100273132324, "distance": 4, "direction": "U", "answer_index": 0, "options": [2, 3, 0, 1], "correct": true, "response": 2, "anchor": 6}
+{"rt": 0.7210569381713867, "distance": 4, "direction": "D", "answer_index": 1, "options": [7, 8, 5, 6], "correct": true, "response": 8, "anchor": 4}
+{"rt": 0.5011081695556641, "distance": 3, "direction": "U", "answer_index": 0, "options": [3, 2, 5, 4], "correct": true, "response": 3, "anchor": 6}
+{"rt": 1.057420015335083, "distance": 2, "direction": "U", "answer_index": 3, "options": [0, 1, 3, 2], "correct": true, "response": 2, "anchor": 4}
+{"rt": 0.5201089382171631, "distance": 2, "direction": "D", "answer_index": 3, "options": [7, 8, 5, 6], "correct": true, "response": 6, "anchor": 4}
+{"rt": 0.6367030143737793, "distance": 2, "direction": "D", "answer_index": 3, "options": [5, 4, 7, 8], "correct": true, "response": 8, "anchor": 6}
+{"rt": 1.108030080795288, "distance": 3, "direction": "D", "answer_index": 1, "options": [7, 5, 6, 4], "correct": true, "response": 5, "anchor": 2}
+{"rt": 0.7286150455474854, "distance": 3, "direction": "U", "answer_index": 3, "options": [2, 4, 1, 0], "correct": true, "response": 0, "anchor": 3}
+{"rt": 0.8203461170196533, "distance": 4, "direction": "U", "answer_index": 1, "options": [2, 0, 3, 1], "correct": true, "response": 0, "anchor": 4}
+{"rt": 0.4926941394805908, "distance": 4, "direction": "D", "answer_index": 0, "options": [7, 6, 8, 5], "correct": true, "response": 7, "anchor": 3}
+{"rt": 0.850517988204956, "distance": 3, "direction": "U", "answer_index": 1, "options": [4, 2, 3, 1], "correct": true, "response": 2, "anchor": 5}
+{"rt": 0.7133619785308838, "distance": 2, "direction": "U", "answer_index": 3, "options": [4, 2, 0, 1], "correct": true, "response": 1, "anchor": 3}
+{"rt": 0.7420079708099365, "distance": 2, "direction": "U", "answer_index": 2, "options": [3, 5, 4, 2], "correct": true, "response": 4, "anchor": 6}
+{"rt": 0.7293479442596436, "distance": 2, "direction": "D", "answer_index": 0, "options": [5, 6, 7, 4], "correct": true, "response": 5, "anchor": 3}
+{"rt": 0.7172949314117432, "distance": 3, "direction": "D", "answer_index": 2, "options": [6, 4, 8, 7], "correct": true, "response": 8, "anchor": 5}
+{"rt": 0.57688307762146, "distance": 2, "direction": "U", "answer_index": 0, "options": [3, 2, 1, 4], "correct": true, "response": 3, "anchor": 5}
+{"rt": 0.5047018527984619, "distance": 3, "direction": "D", "answer_index": 2, "options": [8, 6, 7, 5], "correct": true, "response": 7, "anchor": 4}
+{"rt": 1.005944013595581, "distance": 3, "direction": "U", "answer_index": 1, "options": [3, 1, 0, 2], "correct": true, "response": 1, "anchor": 4}
+{"rt": 0.45468688011169434, "distance": 2, "direction": "D", "answer_index": 3, "options": [6, 8, 4, 7], "correct": true, "response": 7, "anchor": 5}
+{"rt": 0.5501091480255127, "distance": 4, "direction": "U", "answer_index": 2, "options": [3, 2, 1, 0], "correct": true, "response": 1, "anchor": 5}
+{"rt": 0.697192907333374, "distance": 4, "direction": "U", "answer_index": 0, "options": [2, 1, 4, 3], "correct": true, "response": 2, "anchor": 6}
+{"rt": 0.6464850902557373, "distance": 4, "direction": "D", "answer_index": 0, "options": [6, 7, 8, 5], "correct": true, "response": 6, "anchor": 2}
+{"rt": 0.5343899726867676, "distance": 3, "direction": "D", "answer_index": 2, "options": [7, 5, 6, 4], "correct": true, "response": 6, "anchor": 3}
+{"rt": 0.9382750988006592, "distance": 2, "direction": "D", "answer_index": 1, "options": [3, 4, 5, 6], "correct": true, "response": 4, "anchor": 2}
+{"rt": 0.6216590404510498, "distance": 2, "direction": "U", "answer_index": 2, "options": [3, 1, 0, 4], "correct": true, "response": 0, "anchor": 2}
+{"rt": 0.4969489574432373, "distance": 2, "direction": "U", "answer_index": 0, "options": [3, 2, 4, 1], "correct": true, "response": 3, "anchor": 5}
+{"rt": 0.6549949645996094, "distance": 3, "direction": "U", "answer_index": 3, "options": [2, 4, 1, 0], "correct": true, "response": 0, "anchor": 3}
+{"rt": 1.0296130180358887, "distance": 4, "direction": "U", "answer_index": 1, "options": [1, 0, 3, 2], "correct": true, "response": 0, "anchor": 4}
+{"rt": 0.5885419845581055, "distance": 3, "direction": "D", "answer_index": 2, "options": [7, 6, 8, 4], "correct": true, "response": 8, "anchor": 5}
+{"rt": 0.7979779243469238, "distance": 2, "direction": "U", "answer_index": 3, "options": [4, 0, 2, 1], "correct": true, "response": 1, "anchor": 3}
+{"rt": 1.1831748485565186, "distance": 2, "direction": "U", "answer_index": 3, "options": [0, 3, 1, 2], "correct": true, "response": 2, "anchor": 4}
+{"rt": 0.6399199962615967, "distance": 4, "direction": "U", "answer_index": 2, "options": [2, 3, 1, 0], "correct": true, "response": 1, "anchor": 5}
+{"rt": 0.48726916313171387, "distance": 4, "direction": "D", "answer_index": 0, "options": [7, 6, 8, 5], "correct": true, "response": 7, "anchor": 3}
+{"rt": 0.8367910385131836, "distance": 2, "direction": "D", "answer_index": 3, "options": [7, 8, 5, 6], "correct": true, "response": 6, "anchor": 4}
+{"rt": 1.0752480030059814, "distance": 3, "direction": "U", "answer_index": 1, "options": [0, 1, 2, 3], "correct": true, "response": 1, "anchor": 4}
+{"rt": 0.6328399181365967, "distance": 4, "direction": "D", "answer_index": 1, "options": [7, 8, 6, 5], "correct": true, "response": 8, "anchor": 4}
+{"rt": 0.9361732006072998, "distance": 4, "direction": "U", "answer_index": 0, "options": [2, 1, 4, 3], "correct": true, "response": 2, "anchor": 6}
+{"rt": 1.0276758670806885, "distance": 2, "direction": "D", "answer_index": 3, "options": [7, 4, 5, 8], "correct": true, "response": 8, "anchor": 6}
+{"rt": 0.4512479305267334, "distance": 2, "direction": "D", "answer_index": 0, "options": [5, 7, 4, 6], "correct": true, "response": 5, "anchor": 3}
+{"rt": 0.9225189685821533, "distance": 3, "direction": "U", "answer_index": 0, "options": [3, 5, 4, 2], "correct": true, "response": 3, "anchor": 6}
+{"rt": 0.7101969718933105, "distance": 3, "direction": "D", "answer_index": 2, "options": [5, 8, 7, 6], "correct": true, "response": 7, "anchor": 4}
+{"rt": 0.6909830570220947, "distance": 3, "direction": "D", "answer_index": 1, "options": [4, 5, 6, 3], "correct": true, "response": 5, "anchor": 2}
+{"rt": 0.48067498207092285, "distance": 3, "direction": "D", "answer_index": 2, "options": [7, 5, 6, 4], "correct": true, "response": 6, "anchor": 3}
+{"rt": 0.7673149108886719, "distance": 2, "direction": "D", "answer_index": 3, "options": [4, 6, 8, 7], "correct": true, "response": 7, "anchor": 5}
+{"rt": 0.880824089050293, "distance": 2, "direction": "D", "answer_index": 1, "options": [3, 4, 6, 5], "correct": true, "response": 4, "anchor": 2}
+{"rt": 0.4787180423736572, "distance": 4, "direction": "D", "answer_index": 0, "options": [6, 5, 7, 4], "correct": true, "response": 6, "anchor": 2}
+{"rt": 1.2601189613342285, "distance": 2, "direction": "U", "answer_index": 2, "options": [3, 5, 4, 2], "correct": true, "response": 4, "anchor": 6}
+{"rt": 0.642219066619873, "distance": 2, "direction": "U", "answer_index": 2, "options": [3, 4, 0, 1], "correct": true, "response": 0, "anchor": 2}
+{"rt": 0.9620440006256104, "distance": 3, "direction": "U", "answer_index": 1, "options": [3, 2, 1, 0], "correct": true, "response": 2, "anchor": 5}
+{"overall_accuracy": 0.9444444444444445}
